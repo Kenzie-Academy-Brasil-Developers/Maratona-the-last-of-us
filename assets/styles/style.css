@@ -1,3 +1,5 @@
+/* CONFIGURAÇÕES GERAIS */
+
 .flex {
   display: flex;
   align-items: center;
@@ -10,4 +12,262 @@
   gap: 10px;
 }
 
-/* HEADER*/
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* TELA 01 */
+
+.home {
+  height: 900px;
+  background-image: url("../images/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+header > figure > img {
+  height: 144px;
+  width: 254px;
+}
+
+nav {
+  width: 70%;
+}
+
+nav > ul {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul > li > a {
+  color: var(--color-grey-2);
+  font-family: Iceland;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+ul > li > a:hover {
+  font-weight: 600;
+}
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  width: 668px;
+  font-family: Iceland;
+  font-size: 92px;
+  font-weight: 400;
+  line-height: 89px;
+  text-align: left;
+  color: var(--color-grey-2);
+}
+
+main > p {
+  width: 506px;
+  font-family: Actor;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: var(--text-color-1);
+}
+
+button {
+  height: 46px;
+  width: 180px;
+  left: 5002px;
+  top: 23px;
+  color: var(--color-grey-2);
+  margin: 10px;
+  font-family: Iceland;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--color-secondary);
+}
+
+.active:hover {
+  border: 2px solid var(--color-grey-1);
+}
+
+.inactive {
+  background-color: var(--color-grey-1);
+}
+
+.inactive:hover {
+  border: 2px solid var(--color-grey-2);
+}
+
+main > section {
+  margin-top: 100px;
+}
+
+h3 {
+  height: 65px;
+  width: 336px;
+  font-family: Iceland;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--color-grey-2);
+}
+
+section > ul {
+  width: 800px;
+}
+
+section > ul > li {
+  height: 139px;
+  width: 261px;
+  background-image: url("../images/inside/relationship.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+/* TELA 02 */
+.episodes {
+  height: 900px;
+  background-image: url("../images/backgroundEpisodes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+.posts {
+  height: 546px;
+  width: 479px;
+  margin-top: 80px;
+  padding: 5px;
+  text-align: justify;
+}
+
+.posts > p {
+  color: var(--color-grey-2);
+  font-family: Iceland;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.episodes-list {
+  height: 762px;
+  width: 671px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.card {
+  height: 182px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  background-color: var(--color-grey-3);
+}
+
+.episodes-list::-webkit-scrollbar {
+  background-color: var(--color-secondary); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid black; /* creates padding around scroll thumb */
+}
+
+.card > img {
+  height: 120px;
+  width: 250px;
+  border-radius: 12px;
+}
+
+.card-text {
+  width: 60%;
+  height: 80%;
+  margin: 20px;
+}
+
+/*EPISODES*/
+.card-text > h4 {
+  height: 30px;
+  font-family: Darker Grotesque;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-grey-2);
+}
+
+.card-text > p {
+  height: 88px;
+  width: 324px;
+  left: 5690px;
+  top: 639px;
+  border-radius: nullpx;
+  font-family: Darker Grotesque;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color-grey-2);
+}
+
+/* TELA 03 */
+
+footer {
+  height: 377px;
+  background: linear-gradient(180deg, #000000 0%, #950202 289.06%);
+}
+
+footer > figure > img {
+  height: 140px;
+  width: 140px;
+}
+
+.container > section > h2 {
+  height: 47px;
+  width: 668px;
+  left: 5446px;
+  font-family: Iceland;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 47px;
+  text-align: left;
+  color: var(--color-grey-2);
+}
+
+.container > section > h3 {
+  height: 31px;
+  width: 449px;
+  font-family: Iceland;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: left;
+  color: var(--color-grey-2);
+  margin: 0 auto;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
