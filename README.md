@@ -40,7 +40,7 @@ Projeto desenvolvido para o evento Maratona Kenzie dia 11/03/2023.
 
 ## Layout
 
-- [Layout Mulheres em Tech => Desenvolvendo plataforma de vagas](https://www.figma.com/file/E8MXdl9rjgThlbZYMAjX39/Maratona-Kenzie---The-Last-of-Us?node-id=0%3A1&t=Y8d5G0K9jA49u9yj-0)
+- [Layout Maratona Last Of Us](https://www.figma.com/file/E8MXdl9rjgThlbZYMAjX39/Maratona-Kenzie---The-Last-of-Us?node-id=0%3A1&t=Y8d5G0K9jA49u9yj-0)
 
 ## LinkedIn das Instrutoras
 
