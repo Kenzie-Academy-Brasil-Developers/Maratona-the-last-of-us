@@ -25,3 +25,38 @@ const episodes = [
       " Traveling through Missouri, Joel and Ellie are forced to take a detour through Kansas City, where they are ambushed.",
   },
 ];
+
+//1. acessar a lista de produtos através do DOM
+const list = document.querySelector(".episodes-list");
+
+//2. Criar uma função para percorrer todo os meus episódios que estão listadas na variável episodes
+
+function addCard(episodes) {
+  for (let i = 0; i < episodes.length; i++) {
+    //3. Criar uma função que renderize epidio a episodia
+
+    renderCard(episodes[i]);
+  }
+}
+
+addCard(episodes);
+
+function renderCard(episodio) {
+  const listItem = document.createElement("li");
+  listItem.classList.add("card");
+
+  listItem.innerHTML = `
+  <img
+  src=${episodio.img}
+  alt=${episodio.title}
+/>
+<div class="card-text">
+  <h4>${episodio.title}</h4>
+  <p>
+  ${episodio.description}
+  </p>
+</div>
+  `;
+
+  list.appendChild(listItem);
+}
