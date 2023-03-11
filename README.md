@@ -34,9 +34,12 @@ Projeto desenvolvido para o evento Maratona Kenzie dia 11/03/2023.
 
 ### Cores
 
-- Branco: #ffffff;
-- Vermelho: #8E0000;
-- Cinza : #474747;
+--color-primary: #ce3029;
+--color-secondary: #8e0000;
+--color-grey-1: #474747;
+--color-grey-2: #ffffff;
+--color-grey-3: #000000;
+--text-color-1: #c7c7c7cc;
 
 ## Layout
 

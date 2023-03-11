@@ -1,0 +1,29 @@
+h1 {
+  color: #a21616;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.meuheader {
+  border: 1px solid red;
+  background-color: beige;
+}
+
+.lucida {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blue;
+  font-size: 30px;
+}
+#primeiro {
+  color: red;
+}
+
+.lista {
+  border: 1px solid red;
+  height: 50vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
