@@ -1,6 +1,6 @@
 h1 {
   color: #a21616;
-  font-size: 100px;
+  font-size: 10px;
   font-weight: bold;
 }
 
@@ -13,7 +13,7 @@ h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: blue;
-  font-size: 30px;
+  font-size: 10px;
 }
 #primeiro {
   color: red;
